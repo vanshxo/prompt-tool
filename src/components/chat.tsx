@@ -66,7 +66,7 @@ const ChatArea: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col h-full w-full">
+    <div className="flex flex-col h-full w-full bg-black">
       {/* Chat Display Area */}
       <div className="flex-1 overflow-y-auto p-4 space-y-2 bg-black-100 rounded-lg">
         {messages.map((msg) => (
