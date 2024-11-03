@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Input from "./ui/input"; // Import your Input component
 import { Button } from "./ui/button"; // Import your Button component
 import { ChevronRightIcon } from "@radix-ui/react-icons";
-
+//final
 interface Message {
   id: number;
   sender: "user" | "bot";
