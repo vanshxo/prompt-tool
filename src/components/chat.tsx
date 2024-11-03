@@ -15,7 +15,7 @@ const ChatArea: React.FC = () => {
 
   // Send message to server and get response
   const sendToServer = async (userMessage: Message) => {
-    const fetchUrl = 'http://127.0.0.1:8000/spam';
+    const fetchUrl = 'https://f26b-106-219-145-56.ngrok-free.app/spam';
     try {
       const response = await fetch(fetchUrl, {
         method: "POST",
