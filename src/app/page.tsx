@@ -1,11 +1,9 @@
 
 'use client';// app/page.tsx or pages/index.tsx (choose based on your setup)
 import { useState, useEffect } from 'react';
-import { Button } from "@/components/ui/button"
+
 import Loader from '../components/Loader';
-import Input from '../components/ui/input'
-import { ChevronRightIcon } from "@radix-ui/react-icons"
-import FormComponent from '@/components/Form';
+
 import ChatArea from '@/components/chat';
 const Home: React.FC = () => {
   const [loading, setLoading] = useState(true);
